@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Implementazione JavaScript e CSS</title>
-    <link rel="stylesheet" href="heartbutton.css"> <!-- Collegamento al file CSS -->
+    <title>Heart Toggle</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Collegamento al file CSS -->
 </head>
 <body>
-    <div id="canvas-container">
-        <canvas id="myCanvas" width="800" height="600"></canvas>
+    <div class="love">
+        <input id="switch" type="checkbox">
+        <label class="love-heart" for="switch">
+            <i class="left"></i>
+            <i class="right"></i>
+            <i class="bottom"></i>
+            <div class="round"></div>
+        </label>
     </div>
-
-    //<script src="heartbutton.js"></script> <!-- Collegamento al file JavaScript -->
 </body>
 </html>
